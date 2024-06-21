@@ -45,7 +45,7 @@ export class CategoryService {
       activated: false
     },
     {
-      icon: "house",
+      icon: "house-user",
       displayName: "Tiny homes",
       technicalName: "TINY_HOMES",
       activated: false
@@ -63,7 +63,7 @@ export class CategoryService {
       activated: false
     },
     {
-      icon: "tent",
+      icon: "campground",
       displayName: "Camping",
       technicalName: "CAMPING",
       activated: false
@@ -75,7 +75,7 @@ export class CategoryService {
       activated: false
     },
     {
-      icon: "person-skiing",
+      icon: "skiing",
       displayName: "Skiing",
       technicalName: "SKIING",
       activated: false
@@ -93,13 +93,13 @@ export class CategoryService {
       activated: false
     },
     {
-      icon: "sailboat",
+      icon: "ship",
       displayName: "Boat",
       technicalName: "BOAT",
       activated: false
     },
     {
-      icon: "mug-saucer",
+      icon: "mug-hot",
       displayName: "Bed & breakfasts",
       technicalName: "BED_AND_BREAKFASTS",
       activated: false
@@ -111,31 +111,31 @@ export class CategoryService {
       activated: false
     },
     {
-      icon: "earth-europe",
+      icon: "globe-europe",
       displayName: "Earth homes",
       technicalName: "EARTH_HOMES",
       activated: false
     },
     {
-      icon: "tower-observation",
+      icon: "broadcast-tower",
       displayName: "Tower",
       technicalName: "TOWER",
       activated: false
     },
     {
-      icon: "hill-rockslide",
+      icon: "mountain",
       displayName: "Caves",
       technicalName: "CAVES",
       activated: false
     },
     {
-      icon: "champagne-glasses",
+      icon: "glass-cheers",
       displayName: "Luxes",
       technicalName: "LUXES",
       activated: false
     },
     {
-      icon: "kitchen-set",
+      icon: "restroom",
       displayName: "Chef's kitchen",
       technicalName: "CHEFS_KITCHEN",
       activated: false

@@ -1,6 +1,51 @@
-import {faAirFreshener, faUser, IconDefinition} from "@fortawesome/free-solid-svg-icons";
+import {
+  faBan,
+  faBars,
+  faBox, faBroadcastTower, faCampground,
+  faChessRook,
+  faCircle,
+  faCircleNotch,
+  faDollarSign,
+  faExclamation,
+  faEye,
+  faFire, faGlassCheers, faGlasses, faGlassMartini, faGlobeEurope, faHouseUser,
+  faLightbulb, faMinus, faMountain, faMugHot, faPlus, faRestroom,
+  faSearch, faShip, faSkiing, faSnowflake, faTractor, faTree, faUmbrellaBeach,
+  faUser, faWater,
+  IconDefinition
+} from "@fortawesome/free-solid-svg-icons";
+import {faAirbnb} from "@fortawesome/free-brands-svg-icons";
 
 export const fontAwesomeIcons: IconDefinition[] = [
-  faAirFreshener,
-  faUser
+  faBan,
+  faBars,
+  faBox,
+  faChessRook,
+  faCircle,
+  faCircleNotch,
+  faDollarSign,
+  faExclamation,
+  faEye,
+  faFire,
+  faLightbulb,
+  faMinus,
+  faPlus,
+  faSearch,
+  faSnowflake,
+  faTractor,
+  faTree,
+  faUmbrellaBeach,
+  faUser,
+  faWater,
+  faAirbnb,
+  faHouseUser,
+  faCampground,
+  faSkiing,
+  faShip,
+  faMugHot,
+  faGlobeEurope,
+  faMountain,
+  faGlassCheers,
+  faRestroom,
+  faBroadcastTower
 ]
