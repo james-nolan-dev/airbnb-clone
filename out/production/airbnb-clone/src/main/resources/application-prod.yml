@@ -11,6 +11,6 @@ spring:
   jpa:
     properties:
       hibernate:
-        default_schema: nj_airbnb_clone
+        default_schema: airbnb_clone
   liquibase:
     contexts: prod

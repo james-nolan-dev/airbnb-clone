@@ -1,0 +1,24 @@
+services:
+  postgres:
+    container_name: postgres-nj-airbnb
+    image: postgres
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      PGDATA: /var/lib/postgresql/data
+      POSTGRES_DB: nj_airbnb_clone
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - 5420:5432
+    networks:
+      - nj-airbnb-network
+    restart: unless-stopped
+
+networks:
+  nj-airbnb-network:
+    driver: bridge
+
+volumes:
+  postgres:
+    driver: local

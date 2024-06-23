@@ -2,12 +2,10 @@ spring:
   liquibase:
     contexts: dev
 
-
   datasource:
-    url: jdbc:postgresql://localhost:5420/nj_airbnb_clone
+    url: jdbc:postgresql://localhost:5420/nj_airbnb
     username: username
     password: password
   jpa:
     properties:
       hibernate:
-        default_schema: nj_airbnb_clone
